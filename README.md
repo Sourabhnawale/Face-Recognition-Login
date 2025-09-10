@@ -5,15 +5,11 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 📌 Overview
+
 **Face Detection Login** is a Python-based application that enables secure user authentication using facial recognition technology.  
-The project leverages **Deep Learning (CNN)**, **OpenCV**, and a **Graphical User Interface** to provide a seamless login and registration experience.  
+The project leverages Deep Learning (CNN),OpenCV, and a Graphical User Interface to provide a seamless login and registration experience.  
 
-It is designed for **educational purposes** and demonstrates how computer vision can be integrated into user authentication systems.
-
----
-
-## 🚀 Features
+# Features
 - **User Registration** → Register new users by capturing their facial images.  
 - **Face Recognition Login** → Authenticate users using real-time face detection & recognition.  
 - **GUI Support** → Simple interface for registration, login, and user management.  
@@ -22,9 +18,9 @@ It is designed for **educational purposes** and demonstrates how computer vision
 - **Visualization** → Training/recognition graphs for better insights.  
 - **Audio Feedback** → Voice feedback during login/registration.  
 
----
 
-## 📂 Project Structure
+
+# Project Structure
 Face Detection/
 │
 ├── CNNModel.py # CNN model definition
@@ -55,14 +51,11 @@ Face Detection/
 ├── testing_set/ # Test dataset
 └── training_set/ # Training dataset
 
-yaml
-Copy code
 
----
 
-## ⚙️ Installation & Setup
+ Installation & Setup
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/Sourabhnawale/Face-Recognition-Login.git
    cd Face-Recognition-Login
@@ -73,51 +66,21 @@ Copy code
 pip install -r requirements.txt
 Run the application
 
-bash
-Copy code
 python main.py
-🖥️ Usage
 Register a new user → Use GUI to capture facial images.
-
 Login → Authenticate with face recognition in real time.
-
 Database & Models → Stored in SQLite & trained CNN files.
-
-📋 Requirements
 Python 3.x
-
 OpenCV
-
 TensorFlow / Keras
-
 NumPy
-
 SQLite3
-
 Pillow
 
-(Check requirements.txt for details)
 
-🔎 Notes
-Ensure your webcam is connected and accessible.
-
-For best accuracy, collect multiple images per user.
-
-This project is for educational/demo purposes (not production-ready).
-
-📜 License
-This project is licensed under the MIT License.
-
-👤 Author
 Sourabh Nawale
-🔗 GitHub Profile
-📧 sourabhnawale5154@gmail.com
+GitHub Profile
+sourabhnawale5154@gmail.com
 
-yaml
-Copy code
 
----
 
-✨ This version is **clean, structured, and professional** — it will look great on your GitHub.  
-
-Do you want me to also **create a `requirements.txt` file** (listing OpenCV, TensorFlow, etc.) so 
