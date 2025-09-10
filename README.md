@@ -60,9 +60,6 @@ Face Detection/
    git clone https://github.com/Sourabhnawale/Face-Recognition-Login.git
    cd Face-Recognition-Login
 Install dependencies
-
-bash
-Copy code
 pip install -r requirements.txt
 Run the application
 
@@ -81,6 +78,7 @@ Pillow
 Sourabh Nawale
 GitHub Profile
 sourabhnawale5154@gmail.com
+
 
 
 
